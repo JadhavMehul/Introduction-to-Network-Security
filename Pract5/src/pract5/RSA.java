@@ -19,6 +19,7 @@ public class RSA {
         z=(p-1)*(q-1);
         System.out.println("the value of n = "+n); 
         
+        
         for(e=2;e<z;e++){
             if(gcd(e,z)==1) { 
                 break;
